@@ -17,7 +17,7 @@ class Library
   end
 
   def how_order_most_popular
-    @data.orders.map(&:book).group_by(&:title).values.first(3).map(&:length).sum
+    @data.orders.uniq(&:reader).map(&:book).group_by(&:title).values.first(3).map(&:length).sum
   end
 
   def read_data

@@ -2,6 +2,7 @@ require 'require_all'
 require 'active_support/all'
 require 'yaml'
 require 'faker'
+require 'pp'
 require_all 'classes'
 
 Library.fill_random_data if File.zero?('data.yml')
