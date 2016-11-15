@@ -1,4 +1,3 @@
-# Order class 
 class Order
   attr_accessor :book, :reader, :date
 

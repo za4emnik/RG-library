@@ -1,0 +1,245 @@
+--- !ruby/object:Library
+books:
+- !ruby/object:Book
+  title: Everything is Illuminated
+  author: &1 !ruby/object:Author
+    name: Alfonso Harber
+    biography: Adipisci voluptatum aut aperiam provident expedita et.
+- &7 !ruby/object:Book
+  title: Have His Carcase
+  author: &25 !ruby/object:Author
+    name: Reyna Schmitt
+    biography: Magni vitae voluptatem atque soluta distinctio.
+- !ruby/object:Book
+  title: For a Breath I Tarry
+  author: &26 !ruby/object:Author
+    name: Isidro Jaskolski
+    biography: Eveniet magnam vitae veritatis ea et.
+- &5 !ruby/object:Book
+  title: The Daffodil Sky
+  author: &28 !ruby/object:Author
+    name: Lenny Collins
+    biography: In magni et ut quo.
+- &16 !ruby/object:Book
+  title: Waiting for the Barbarians
+  author: &2 !ruby/object:Author
+    name: Dr. Barrett Cormier
+    biography: Ut in tempora et consequatur.
+- &11 !ruby/object:Book
+  title: Taming a Sea Horse
+  author: *1
+- !ruby/object:Book
+  title: The Stars' Tennis Balls
+  author: &22 !ruby/object:Author
+    name: Luther Parker
+    biography: Esse repellendus pariatur aspernatur doloremque veniam et.
+- !ruby/object:Book
+  title: The Heart Is Deceitful Above All Things
+  author: &3 !ruby/object:Author
+    name: Francisca Hackett I
+    biography: Ipsum asperiores expedita quod.
+- !ruby/object:Book
+  title: Time of our Darkness
+  author: &24 !ruby/object:Author
+    name: Lolita Marvin PhD
+    biography: Officiis provident suscipit distinctio esse ut asperiores laborum.
+- &8 !ruby/object:Book
+  title: All the King's Men
+  author: *2
+- &13 !ruby/object:Book
+  title: Absalom, Absalom!
+  author: *2
+- &9 !ruby/object:Book
+  title: Number the Stars
+  author: &23 !ruby/object:Author
+    name: Gregory Hilll PhD
+    biography: Eum magnam explicabo nam quasi dolores.
+- &6 !ruby/object:Book
+  title: Cabbages and Kings
+  author: &27 !ruby/object:Author
+    name: Elisabeth Ziemann DDS
+    biography: Repudiandae ipsam expedita voluptatem accusamus.
+- !ruby/object:Book
+  title: The Torment of Others
+  author: *3
+- &4 !ruby/object:Book
+  title: A Time to Kill
+  author: *3
+orders:
+- !ruby/object:Order
+  book: *4
+  reader: &20 !ruby/object:Reader
+    name: Tremayne Rosenbaum
+    email: kody_predovic@eichmann.io
+    city: New Deionview
+    street: Kuphal Avenue
+    house: '2798'
+  date: 2016-11-02
+- !ruby/object:Order
+  book: *5
+  reader: &17 !ruby/object:Reader
+    name: Rollin Breitenberg
+    email: michel.kemmer@weimanngreenholt.io
+    city: Mckennaberg
+    street: Guy Lock
+    house: '78228'
+  date: 2016-11-05
+- !ruby/object:Order
+  book: *6
+  reader: &15 !ruby/object:Reader
+    name: Noe Dach
+    email: lambert.gaylord@hirtherenner.co
+    city: South Craig
+    street: Clarissa Ways
+    house: '577'
+  date: 2016-11-11
+- !ruby/object:Order
+  book: *7
+  reader: &12 !ruby/object:Reader
+    name: Nannie Schmeler
+    email: columbus_howe@erdman.org
+    city: Columbusbury
+    street: Jannie Avenue
+    house: '724'
+  date: 2016-11-05
+- !ruby/object:Order
+  book: *8
+  reader: &21 !ruby/object:Reader
+    name: Dusty Welch
+    email: freddy.hoppe@pfannerstill.com
+    city: South Charleyview
+    street: Mraz Oval
+    house: '3372'
+  date: 2016-11-10
+- !ruby/object:Order
+  book: *7
+  reader: &10 !ruby/object:Reader
+    name: Herbert Schuster I
+    email: emerson.wiegand@dickens.co
+    city: Lake Gabriella
+    street: Kailyn Falls
+    house: '83123'
+  date: 2016-11-06
+- !ruby/object:Order
+  book: *9
+  reader: &18 !ruby/object:Reader
+    name: Jed Leannon
+    email: pietro@mcglynn.org
+    city: New Elvie
+    street: Cesar Park
+    house: '6995'
+  date: 2016-11-13
+- !ruby/object:Order
+  book: *4
+  reader: *10
+  date: 2016-11-11
+- !ruby/object:Order
+  book: *6
+  reader: &14 !ruby/object:Reader
+    name: Ayana Miller
+    email: mafalda.von@harberquigley.name
+    city: Weimannfort
+    street: Ervin Villages
+    house: '181'
+  date: 2016-11-05
+- !ruby/object:Order
+  book: *11
+  reader: *12
+  date: 2016-11-07
+- !ruby/object:Order
+  book: *13
+  reader: *14
+  date: 2016-11-14
+- !ruby/object:Order
+  book: *11
+  reader: &19 !ruby/object:Reader
+    name: Hiram Ratke
+    email: glennie.vandervort@lubowitzruecker.info
+    city: Myrtleview
+    street: Monique Turnpike
+    house: '53711'
+  date: 2016-11-06
+- !ruby/object:Order
+  book: *11
+  reader: *14
+  date: 2016-11-12
+- !ruby/object:Order
+  book: *6
+  reader: *15
+  date: 2016-11-04
+- !ruby/object:Order
+  book: *16
+  reader: *17
+  date: 2016-11-11
+readers:
+- !ruby/object:Reader
+  name: Emily Hermann
+  email: noah@ritchielegros.co
+  city: Jaredfort
+  street: Iva Lodge
+  house: '973'
+- *10
+- !ruby/object:Reader
+  name: Tracy Gaylord
+  email: felipa@bechtelar.name
+  city: West Virginiaview
+  street: Easton Inlet
+  house: '3667'
+- !ruby/object:Reader
+  name: Brisa Lockman
+  email: terrence@breitenbergblanda.biz
+  city: Bradleyberg
+  street: Lucious Expressway
+  house: '3272'
+- *14
+- *18
+- *19
+- !ruby/object:Reader
+  name: Amira Kuvalis
+  email: samir@harris.info
+  city: East Hunter
+  street: Doyle Club
+  house: '983'
+- *20
+- *12
+- *15
+- *21
+- *17
+- !ruby/object:Reader
+  name: Dr. Madyson Crona
+  email: estrella@mcglynn.biz
+  city: Lake Anyaborough
+  street: Leonard Village
+  house: '9942'
+- !ruby/object:Reader
+  name: Fay Beier
+  email: dayne@prosacco.io
+  city: Stokestown
+  street: Bridie Stravenue
+  house: '36623'
+authors:
+- !ruby/object:Author
+  name: Wilford Fadel III
+  biography: Porro iusto provident consectetur.
+- !ruby/object:Author
+  name: Maximo Gutkowski
+  biography: Ullam voluptate ut voluptatem et sint.
+- *2
+- *22
+- *23
+- *24
+- *25
+- !ruby/object:Author
+  name: Bryana Prohaska
+  biography: Velit itaque et sit maxime necessitatibus in voluptas.
+- !ruby/object:Author
+  name: Dean Abbott DVM
+  biography: Est laborum dolorem ratione saepe voluptas.
+- *3
+- *26
+- *27
+- *1
+- !ruby/object:Author
+  name: Ms. Leann Mosciski
+  biography: Quaerat harum ratione incidunt nihil omnis qui nam.
+- *28
