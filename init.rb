@@ -2,9 +2,7 @@ require 'require_all'
 require 'active_support/all'
 require 'yaml'
 require 'faker'
-require 'pp'
 require_all 'classes'
-require_all 'modules'
 
 library = Library.new
 library.read_data
